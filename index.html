@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your 2025 Predictions</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>🌀 Your 2025 Predictions!</h1>
+            <p>Discover what 2025 has in store for you!</p>
+        </div>
+    </header>
+
+    <main>
+        <!-- Intro Section -->
+        <section id="intro" class="section">
+            <h2>Let's Begin!</h2>
+            <p>Enter your details to reveal your 2025 predictions:</p>
+            <form id="intro-form">
+                <input type="text" id="name" placeholder="Enter your name" required />
+                <input type="date" id="dob" placeholder="Enter your date of birth" required />
+                <button type="submit">Start Predictions</button>
+            </form>
+        </section>
+
+        <!-- Predictions Section -->
+        <section id="predictions" class="section hidden">
+            <h2>First Six Months of 2025 for <span id="user-name"></span>:</h2>
+            <div class="prediction-box">
+                <p id="prediction">Click below to reveal your first prediction!</p>
+            </div>
+            <button id="reveal-btn">Reveal Prediction</button>
+        </section>
+
+        <!-- Unlock Section -->
+        <section id="unlock" class="section hidden">
+            <h2>Want to Know the Next Six Months?</h2>
+            <p>Share this site on WhatsApp to unlock predictions for the second half of 2025!</p>
+            <button id="whatsapp-share">Share on WhatsApp</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 2025 Predictions | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
